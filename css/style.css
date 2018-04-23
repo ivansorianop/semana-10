@@ -1,0 +1,132 @@
+.container{
+	height: auto;
+	width: 100%;
+	
+
+}
+header{
+	background-color: #ddc0f9;
+
+	
+}
+header img{
+	padding-top: 40px;
+	margin-left: 600px;
+	margin-top: -20px;
+
+
+}
+nav{
+	display: flex;
+	justify-content: flex-end;
+
+
+}
+nav a{
+	color: white;
+	text-decoration: none;
+	padding: 86px;
+}
+ul{
+	display: flex;
+	flex-direction: row;
+	background-color: #755593;
+
+}
+li{
+	margin-left: 20px;
+	list-style-type: none;
+	font-family: 'Roboto', sans-serif;
+	
+	
+
+	
+}
+
+
+li:hover{
+	background-color: #513968;
+
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdowna {
+    display: none;
+    position: absolute;
+    background-color: #78539b;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown:hover .dropdowna{
+    display: block;
+}
+
+
+.main img{
+	width: 100%;
+	height: auto;
+}
+.main a{
+	text-decoration: none;
+	background-color: #755593;
+	color: white;
+
+}
+.main a:hover{
+	background-color: #513968;
+
+}
+.fotos{
+	
+	display: flex;
+	flex-direction: row;
+
+
+}
+.fotoa .fotob .fotoc{
+	width: 300px;
+	margin-left: 100px;
+}
+
+.fotos img{
+	border-radius: 200px;
+	background-color: #78539b;
+}
+.social{
+	display: flex;
+	background-color: ‎#f5ceff;
+	justify-content: flex-end;
+	margin-top: -80px;
+
+}
+.social > div{
+	margin: 10px;
+	padding: 10px;
+
+}
+.social img{
+	height: 40px;
+	width: 40px;
+}
+footer{
+	background-color: #ddc0f9;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 40px;
+	margin-top: 5px;
+
+}
+.articles img{
+	width: 40%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+
+p, h1{
+	font-family: 'Roboto', sans-serif;
+	
+}
